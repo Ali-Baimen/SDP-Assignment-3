@@ -8,7 +8,7 @@ public class AdapterTranslator implements AlliedCommunication {
     @Override
     public void sendMessage(String message) {
         String translated = translateToRussian(message);
-        russianSoldier.Soobchienie(message + " (Перевод: " + translated + ")");
+        russianSoldier.soobchienie(message + " (Перевод: " + translated + ")");
     }
 
     private String translateToRussian(String englishMessage) {

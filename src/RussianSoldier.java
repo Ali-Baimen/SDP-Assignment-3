@@ -1,5 +1,5 @@
 public class RussianSoldier {
-    public void Soobchienie(String soobchienie) {
-        System.out.println("Перехватил сообшеник врагов:" +soobchienie);
+    public void soobchienie(String soobchienie) {
+        System.out.println("Перехватил сообшение врагов:" +soobchienie);
     }
 }
